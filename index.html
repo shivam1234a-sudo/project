@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Programming Pathshala – AI Engineering</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,700;1,800;1,900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="styles.css"/>
+
+</head>
+<body>
+
+<!-- ══════════ NAVBAR ══════════ -->
+<nav class="navbar">
+  <div class="nav-left">
+    <a class="logo" href="#">
+      <div class="logo-box">
+        <svg viewBox="0 0 24 24" fill="none">
+          <rect x="3" y="3" width="18" height="18" rx="3" fill="rgba(255,255,255,.15)" stroke="rgba(255,255,255,.6)" stroke-width="1.3"/>
+          <path d="M7 8h10M7 12h10M7 16h6" stroke="#fff" stroke-width="1.7" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <span class="logo-text">Programming Pathshala</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#"><span class="nl-top">AI Engineering</span><span class="nl-bot">For Next Gen Builders</span></a></li>
+      <li><a href="#"><span class="nl-top">Courses ▾</span><span class="nl-bot">Interview Preparation</span></a></li>
+      <li><a href="#"><span class="nl-top">Code Everyday ▾</span><span class="nl-bot">Free Learning</span></a></li>
+      <li><a href="#"><span class="nl-top">Trainings</span><span class="nl-bot">For Businesses</span></a></li>
+    </ul>
+  </div>
+  <div class="nav-right">
+    <button class="btn-login">Log In</button>
+    <button class="btn-trial">Start 7-Days Free Trial</button>
+  </div>
+</nav>
+
+<!-- ══════════ HERO ══════════ -->
+<section class="hero">
+  <div class="hero-bg-img"></div>
+  <div class="hero-bg-overlay"></div>
+
+  <div class="hero-content">
+    <!-- badge -->
+    <div class="h-badge">
+      <span class="h-badge-dot"></span>
+      Cohort 2 launching in October
+    </div>
+
+    <!-- headline -->
+    <h1 class="h-title">
+      FASTRACK YOUR TECH CAREER<br>
+      WITH <span class="gold">AI ENGINEERING</span>
+    </h1>
+
+    <!-- countdown -->
+    <div class="h-cd">
+      <div class="cd-unit"><span class="cd-n" id="dd">15</span><span class="cd-l">Days</span></div>
+      <span class="cd-sep">:</span>
+      <div class="cd-unit"><span class="cd-n" id="dh">10</span><span class="cd-l">Hours</span></div>
+      <span class="cd-sep">:</span>
+      <div class="cd-unit"><span class="cd-n" id="dm">02</span><span class="cd-l">Minutes</span></div>
+      <span class="cd-sep">:</span>
+      <div class="cd-unit"><span class="cd-n" id="ds">42</span><span class="cd-l">Second</span></div>
+    </div>
+
+    <!-- buttons -->
+    <div class="h-btns">
+      <button class="h-btn-cb">Request a Callback</button>
+      <button class="h-btn-en">Enrol Now</button>
+    </div>
+
+    <!-- companies -->
+    <div class="h-companies">
+      <p class="h-co-label">Companies Hiring AI Engineers</p>
+      <div class="h-co-row">
+        <div class="co"><span class="co-t" style="font-size:19px;font-weight:800;letter-spacing:-.5px;">amazon</span></div>
+        <div class="co">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.8"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+          <span class="co-t-sm">perplexity</span>
+        </div>
+        <div class="co">
+          <span class="co-t-sm" style="letter-spacing:.3px;">IIElevenLabs</span>
+        </div>
+        <div class="co">
+          <svg width="26" height="14" viewBox="0 0 48 22" fill="none">
+            <path d="M5 11c0-3.5 1.8-7 5-7 1.8 0 3.2 1.4 5 4.5C17 5.4 18.4 4 20.2 4c3.2 0 5 3.5 5 7 0 1.8-.5 3-1.3 3.8-.7.6-1.4.7-2 .7-1 0-1.8-.6-2.5-2L18 11l-1.4 2.5C15.8 15.1 15 15.5 14 15.5c-.6 0-1.3-.1-2-.7-.8-.8-1.3-2-1.3-3.8z" fill="white"/>
+          </svg>
+          <span class="co-t-sm">Meta</span>
+        </div>
+        <div class="co">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5">
+            <circle cx="12" cy="12" r="10"/>
+            <path d="M12 2v20M2 12h20M4.93 4.93l14.14 14.14M19.07 4.93 4.93 19.07" stroke-width="1.1"/>
+          </svg>
+          <span class="co-t-sm">OpenAI</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ WHAT YOU WILL BUILD ══════════ -->
+<section class="s-build">
+  <h2 class="s-title">What you will build inside Cohort 2?</h2>
+
+  <div class="vscwin">
+    <!-- titlebar -->
+    <div class="vsc-title">
+      <div class="mac-dots">
+        <div class="mac-dot mac-r"></div>
+        <div class="mac-dot mac-y"></div>
+        <div class="mac-dot mac-g"></div>
+      </div>
+      <span class="vsc-label">AI Agent</span>
+    </div>
+
+    <!-- SIDE BY SIDE body -->
+    <div class="vsc-body">
+
+      <!-- LEFT: feature toggles -->
+      <div class="vsc-sidebar">
+        <div class="fc">
+          <div class="fc-row">
+            <span class="fc-name">Memory &amp; Tool Powered Chatbot</span>
+            <div class="fc-tog"></div>
+          </div>
+          <p class="fc-desc">Create chatbots that retain conversation history and respond contextually.</p>
+        </div>
+        <div class="fc">
+          <div class="fc-row">
+            <span class="fc-name">MCP &amp; Multi-Agents</span>
+            <div class="fc-tog"></div>
+          </div>
+          <p class="fc-desc">Integrate external APIs like weather or search to make AI truly interactive.</p>
+        </div>
+        <div class="fc">
+          <div class="fc-row">
+            <span class="fc-name">RAG &amp; Fine Tuning</span>
+            <div class="fc-tog"></div>
+          </div>
+          <p class="fc-desc">Build and deploy hands-on AI applications to strengthen your portfolio.</p>
+        </div>
+      </div>
+
+      <!-- RIGHT: code editor -->
+      <div class="vsc-editor">
+        <div class="ed-tab-row">
+          <span class="ed-tab active"><span class="tab-dot"></span>open_ai_call_mem_tool.py</span>
+          <span class="ed-tab">open_ai_call_mem_tool_v2.py</span>
+          <span class="ed-tab">db_accessor.py</span>
+          <span class="ed-tab">openai_mem_tool_persistence.py</span>
+        </div>
+        <div class="code-panel">
+          <div class="cl"><span class="cl-n">12</span><span class="cl-c"><span class="kw">class</span> <span class="vr">OpenAIClientWithMemoryAndTools</span>:</span></div>
+          <div class="cl"><span class="cl-n">13</span><span class="cl-c"></span></div>
+          <div class="cl"><span class="cl-n">14</span><span class="cl-c">&nbsp;&nbsp;&nbsp;&nbsp;<span class="cm">Simple weather tool that fetches current weather for a city.</span></span></div>
+          <div class="cl"><span class="cl-n">15</span><span class="cl-c">&nbsp;&nbsp;&nbsp;&nbsp;<span class="cm">Uses wttr.in (free, no API key required).</span></span></div>
+          <div class="cl"><span class="cl-n">16</span><span class="cl-c">&nbsp;&nbsp;&nbsp;&nbsp;<span class="kw">try</span>:</span></div>
+          <div class="cl"><span class="cl-n">17</span><span class="cl-c">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="vr">response</span> = <span class="vr">requests</span>.<span class="fn">get</span>(<span class="st">f"https://wttr.in/{city}?format=3"</span>)</span></div>
+          <div class="cl"><span class="cl-n">18</span><span class="cl-c">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kw">if</span> <span class="vr">response</span>.status_code == <span class="nm">200</span>:</span></div>
+          <div class="cl"><span class="cl-n">19</span><span class="cl-c">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kw">return</span> <span class="vr">response</span>.text.strip()</span></div>
+          <div class="cl"><span class="cl-n">20</span><span class="cl-c">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kw">else</span>:</span></div>
+          <div class="cl"><span class="cl-n">21</span><span class="cl-c">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kw">return</span> <span class="st">f"Error: {response.status_code}"</span></span></div>
+          <div class="cl"><span class="cl-n">22</span><span class="cl-c">&nbsp;&nbsp;&nbsp;&nbsp;<span class="kw">except</span> <span class="vr">Exception</span> <span class="kw">as</span> <span class="pr">e</span>:</span></div>
+          <div class="cl"><span class="cl-n">23</span><span class="cl-c">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kw">return</span> <span class="st">f"Failed to fetch weather: {str(e)}"</span></span></div>
+        </div>
+        <!-- terminal -->
+        <div class="term-area">
+          <div class="term-tabs-row">
+            <span class="term-tab">Problems</span>
+            <span class="term-tab">Output</span>
+            <span class="term-tab active">Debug Console</span>
+            <span class="term-tab">Terminal</span>
+            <span class="term-tab">Ports</span>
+          </div>
+          <div class="term-body">
+            <div><span class="tc">▲</span> a Goodbyes! Thanks for chatting!</div>
+            <div><span class="ty">VivekanandVivek@lexahads-MacBook-4</span>: SimpleExamples &amp; /usr/local/bin/python3.12 ropen ai_sell_mem_took_v2 py</div>
+            <div><span class="tc">▲</span> <span class="tg">ChatBot with Memory and Tools is ready)</span></div>
+            <div>&nbsp;</div>
+            <div><span class="tg">Example Usage!</span> Ask weather (try:asking about weather!)</div>
+            <div>Type: 'quit':'q' exit: to and the convers</div>
+            <div>Type <span class="tg">'history'</span> to see tharsian history</div>
+            <div>Type <span class="tg">'clear'</span> to clear conversations on history</div>
+            <div style="color:#1e2840;">════════════════════════════════</div>
+            <div><span class="tc">▲</span> <span class="ty">Your:</span> hi</div>
+            <div style="color:#3a4465;">Processing...</div>
+            <div style="color:#1e2840;">════════════════════════════════</div>
+            <div style="font-size:10.5px;color:#3a4465;">ChatcompletionMessagecontent='Hello! How can I assist you today?', refusal=None, role='assistant'</div>
+            <div style="color:#1e2840;">════════════════════════════════</div>
+            <div><span class="tc">▲</span> <span class="ty">Yes: Is Delhi hotter than Shimla today?</span></div>
+            <div><span class="tc">▲</span> <span class="ty">Your IS Delhi hotter than Shimla and Dehradun</span></div>
+            <div style="color:#3a4465;">Processing..</div>
+            <div style="color:#1a2035;font-size:10px;">JK to generate a compond</div>
+          </div>
+          <div class="statusbar">
+            <span class="sb-g">● Ln 27, Col 12</span>
+            <span>Spaces: 4</span><span>UTF 3</span><span>5</span>
+            <span class="sb-y">Python – 5 16 64-bit</span>
+          </div>
+        </div>
+      </div><!-- /vsc-editor -->
+
+    </div><!-- /vsc-body -->
+  </div><!-- /vscwin -->
+</section>
+
+<!-- ══════════ COURSE CURRICULUM ══════════ -->
+<section class="s-curr">
+  <h2 class="s-title">Course Curriculum</h2>
+
+  <!-- 2 columns SIDE BY SIDE -->
+  <div class="curr-grid">
+    <div class="c-card">
+      <div class="c-card-title">1. LLMs Made Simple</div>
+      <div class="c-card-desc">Understand how GPT predicts words, learns from text, and improves via human feedback.</div>
+    </div>
+    <div class="c-card">
+      <div class="c-card-title">5. Tool Calling in Action</div>
+      <div class="c-card-desc">Connect GPT to real tools like calculators, search, PDFs, and build functional agents.</div>
+    </div>
+    <div class="c-card">
+      <div class="c-card-title">2. Inside GPT Models</div>
+      <div class="c-card-desc">Learn transformers, tokens, embeddings, attention, and what makes GPT "think".</div>
+    </div>
+    <div class="c-card">
+      <div class="c-card-title">6. Agent Workflows</div>
+      <div class="c-card-desc">Use prompts + routing to build smart, modular AI agents that perform tasks.</div>
+    </div>
+    <div class="c-card">
+      <div class="c-card-title">3. OpenAI API Mastery</div>
+      <div class="c-card-desc">Make API calls, use system/user prompts, and build context-aware chat agents.</div>
+    </div>
+    <div class="c-card">
+      <div class="c-card-title">7. RAG &amp; Vector Search</div>
+      <div class="c-card-desc">Add memory using vector DBs and Retrieval-Augmented Generation with HyDE and re-ranking.</div>
+    </div>
+    <div class="c-card">
+      <div class="c-card-title">4. Prompt Engineering</div>
+      <div class="c-card-desc">Craft effective prompts using proven techniques for better outputs.</div>
+    </div>
+    <div class="c-card">
+      <div class="c-card-title">8. Multi-Agent Systems</div>
+      <div class="c-card-desc">Build advanced agents using LangChain, CrewAI, LangGraph, and browser automation.</div>
+    </div>
+  </div>
+
+  <div class="sm-wrap">
+    <button class="btn-showmore">Show more &nbsp; &#8964;</button>
+  </div>
+</section>
+
+<!-- ══════════ FOOTER ══════════ -->
+<footer>
+  <!-- 4 columns SIDE BY SIDE -->
+  <div class="ft-grid">
+
+    <!-- Col 1: About Us -->
+    <div>
+      <p class="ft-h">About Us</p>
+      <ul class="ft-list">
+        <li><a href="#">Join our Community</a></li>
+        <li><a href="#">Success Stories</a></li>
+        <li><a href="#">Blogs</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Terms &amp; Conditions</a></li>
+        <li><a href="#">Refund Policy</a></li>
+      </ul>
+    </div>
+
+    <!-- Col 2: Popular Programs -->
+    <div>
+      <p class="ft-h">Popular Programs</p>
+      <div class="prog-row">
+        <div class="prog-thumb pt1">Renaissance for Top Tech Companies</div>
+        <span class="prog-name">Renaissance for Top Tech Companies</span>
+      </div>
+      <div class="prog-row">
+        <div class="prog-thumb pt2">Low Level Design &amp; Concurrency</div>
+        <span class="prog-name">Become SSE &amp; Crack Design Rounds</span>
+      </div>
+      <div class="prog-row">
+        <div class="prog-thumb pt3">Backend Dev with Java Spring Boot</div>
+        <span class="prog-name">Become Java Spring Boot Backend Developer</span>
+      </div>
+    </div>
+
+    <!-- Col 3: More Courses + For Businesses -->
+    <div>
+      <p class="ft-h">More Courses</p>
+      <ul class="mc-list">
+        <li><a href="#">Crack Coding Rounds in DSA</a></li>
+        <li><a href="#">Python Essentials for ML &amp; Web Dev</a></li>
+        <li><a href="#">Master C++ for Problem Solving &amp; Interviews</a></li>
+        <li><a href="#" style="color:#fff;font-weight:600;">BECOME AI ENGINEER <span class="new-tag">New</span></a></li>
+      </ul>
+      <p class="biz-h">For Businesses</p>
+      <ul class="mc-list">
+        <li><a href="#">For Next Gen Builders</a></li>
+        <li><a href="#">Trainings for Universities &amp; Corporations</a></li>
+      </ul>
+    </div>
+
+    <!-- Col 4: Contact Us -->
+    <div>
+      <p class="ft-h">Contact Us</p>
+      <div class="ct-row">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.58 1h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 8.91a16 16 0 0 0 5.72 5.72l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        +91 9871723495
+      </div>
+      <div class="ct-row">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        514, Iconic Corenthum Tower, Noida Sector 62, Noida.
+      </div>
+      <div class="ct-row">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="7f171a130f3f0f0d10180d1e12121611180f1e0b170c171e131e511c1012">[email&#160;protected]</a>
+      </div>
+
+      <p class="soc-h">Social Links</p>
+      <div class="soc-row">
+        <!-- Facebook -->
+        <a href="#" class="soc-btn"><svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+        <!-- LinkedIn -->
+        <a href="#" class="soc-btn"><svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg></a>
+        <!-- Instagram -->
+        <a href="#" class="soc-btn">
+          <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" fill="#080a1e"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke="#080a1e" stroke-width="2.5" stroke-linecap="round"/></svg>
+        </a>
+        <!-- YouTube -->
+        <a href="#" class="soc-btn">
+          <svg viewBox="0 0 24 24"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 0 0 1.46 6.42 29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58 2.78 2.78 0 0 0 1.95 1.96C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.96-1.96A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75,15.02 15.5,12 9.75,8.98 9.75,15.02" fill="#080a1e"/></svg>
+        </a>
+      </div>
+
+      <div style="margin-top:22px;font-size:12.5px;color:#5a6690;">All Right Reserved with @Programming Pathshala</div>
+    </div>
+
+  </div><!-- /ft-grid -->
+</footer>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+const endTime = new Date(Date.now() + (15*86400 + 10*3600 + 2*60 + 42)*1000);
+function tick(){
+  const d = endTime - Date.now();
+  if(d<=0)return;
+  document.getElementById('dd').textContent=String(Math.floor(d/86400000)).padStart(2,'0');
+  document.getElementById('dh').textContent=String(Math.floor((d%86400000)/3600000)).padStart(2,'0');
+  document.getElementById('dm').textContent=String(Math.floor((d%3600000)/60000)).padStart(2,'0');
+  document.getElementById('ds').textContent=String(Math.floor((d%60000)/1000)).padStart(2,'0');
+}
+setInterval(tick,1000);tick();
+</script>
+</body>
+</html>
